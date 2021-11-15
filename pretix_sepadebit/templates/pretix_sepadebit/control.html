@@ -1,7 +1,7 @@
 {% load i18n %}
 {% load bootstrap3 %}
 
-{% with order.sepaexportorder_set.last as seo %}
+{% with sepaexportorder_set.last as seo %}
 {% if seo %}
     <p>
 	{% blocktrans trimmed with date=seo.export.datetime|date:"SHORT_DATETIME_FORMAT" %}
