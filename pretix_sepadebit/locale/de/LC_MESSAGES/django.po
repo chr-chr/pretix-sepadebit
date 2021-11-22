@@ -496,7 +496,7 @@ msgid ""
 "We will debit the total amount of this order from your bank account by "
 "direct debit on or shortly after %(date)s."
 msgstr ""
-"Wir werden den vollen Bestellbetrag am oder kurz nach dem %(date)s von Ihrem "
+"Wir werden den Betrag am oder kurz nach dem %(date)s von Ihrem "
 "Bankkonto einziehen."
 
 #: pretix_sepadebit/templates/pretix_sepadebit/mail.txt:6
